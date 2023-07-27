@@ -1,41 +1,41 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Guides from './guides.astro';
+import About from './about.astro';
+import index from './index.astro'
+import github from "./assets/github.jpg"
 ---
 
-<Layout title="Welcome to Astro.">
+
+<Layout title="Home">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+		<div>
+		<h1><b>Welcome and Hello!</b></h1>
+		<h2>Greetings, I am Ranuka and welcome to my site!</h2>
+		<p>Click on here to learn about <a href="/about"> me! </a></p>
+		<p>Click on here to view my <a href="/guides"> guides! </a></p>
+		<h4>(C) Copyright 2023 Ranuka Dinsitha GitHub All Rights Reserved.</h2>
+		<p><b></b></p>	
+		<h3><b>By Ranuka</b></h3>
+		<p><i>Create Using Astro</i></p>
+		<title>My Site</title>
+		</div>
 	</main>
 </Layout>
 
 <style>
+    
+	h1 {
+		background-color: blanchedalmond;
+		font-size: large;
+        font-family: "Fredoka" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	* {
+		background-color: blanchedalmond;
+	}
+
 	main {
 		margin: auto;
 		padding: 1.5rem;
