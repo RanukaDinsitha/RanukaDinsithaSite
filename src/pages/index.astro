@@ -5,6 +5,7 @@ import Guides from './guides.astro';
 import About from './about.astro';
 import index from './index.astro'
 import github from "./assets/github.jpg"
+import { Component } from 'react';
 ---
 
 
@@ -13,13 +14,16 @@ import github from "./assets/github.jpg"
 		<div>
 		<h1><b>Welcome and Hello!</b></h1>
 		<h2>Greetings, I am Ranuka and welcome to my site!</h2>
-		<p>Click on here to learn about <a href="/about"> me! </a></p>
-		<p>Click on here to view my <a href="/guides"> guides! </a>
-			<p>Click on here to view my <a href="/apps"> apps! </a></p>
+		<div class="link">
+		<p> <a href="/about"> Click on here to learn about me! </a></p>
+		<p><a href="/guides"> Click on here to view my guides! </a>
+		<p><a href="/apps"> Click on here to view my apps! </a></p>
+		</div>
 		<h4>(C) Copyright 2023 Ranuka Dinsitha GitHub All Rights Reserved.</h2>
 		<p><b></b></p>	
 		<h3><b>By Ranuka</b></h3>
 		<p><i>Create Using Astro</i></p>
+		<p><a href="/follow"> Want to follow me? </a></p>
 		<title>My Site</title>
 		</div>
 	</main>

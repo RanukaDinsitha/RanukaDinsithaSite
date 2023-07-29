@@ -24,3 +24,4 @@ pnpm-debug.log*
 .README.md
 .src/components/console-managers.ts
 .history/
+.pages/system/

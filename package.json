@@ -10,13 +10,16 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/partytown": "^1.2.3",
     "@astrojs/react": "^2.2.1",
     "@astrojs/tailwind": "^4.0.0",
+    "@astrojs/ts-plugin": "^1.1.1",
     "@ckeditor/ckeditor5-build-classic": "^38.1.1",
     "@ckeditor/ckeditor5-react": "^6.1.0",
-    "@types/react": "^18.2.16",
+    "@types/react": "^18.2.17",
     "@types/react-dom": "^18.2.7",
     "astro": "^2.8.5",
+    "bootstrap": "^5.3.1",
     "flamethrower-router": "^0.0.0-meme.12",
     "html-react-parser": "^4.2.0",
     "react": "^18.2.0",

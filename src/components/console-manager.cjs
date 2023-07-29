@@ -4,3 +4,5 @@ console.log("It can can change how you view the site!!");
 console.log("Thank You For Visiting Also!!!!!!!!!!");
 console.log(":-) :D :)");
 // By Ranuka //
+
+export default App;
