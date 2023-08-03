@@ -15,3 +15,5 @@ export default defineConfig({
     mode: "standalone",
   }),
 });
+
+// Astro Config File for Site
