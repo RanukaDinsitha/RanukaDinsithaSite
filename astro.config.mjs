@@ -6,13 +6,14 @@ import partytown from "@astrojs/partytown";
 // import ckeditor5 from "@ckeditor/ckeditor5-build-classic";
 import vue from "@astrojs/vue";
 // import node from "@astrojs/node";
+// import bootstrap from "bootstrap";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), partytown(), vue()],
-  output: "server",
-  // adapter: node({
+  // output: "server",
   // mode: "standalone",
-});
-
-// Astro Config File for Site
+  // adapter: node({
+    // mode: "standalone",
+  }) // ,
+// });
