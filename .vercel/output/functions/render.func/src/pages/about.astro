@@ -1,0 +1,72 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Index from "./index.astro";
+import Guides from "./guides.astro";
+import Card from "../components/Card.astro";
+import github from "./assets/github.jpg"
+---
+
+<Layout title="About Me">
+    <main>
+        <div>
+            <h2><b>- About Me</b></h2>
+
+            <p1><b>How I got into Astro</b></p1>
+            <p>I like to mostly to create react apps! But I decided to try astro and now I love it. Altough it's only used for static webpages it's cool! For me its a lot like react too. So yep I like it!</p>
+            <p>I am a 8 year old boy and I first got into react and astro. When I was a grade 3 but I failed so tried again and the did it! Now I can code basic webpages in react and astro and gatsby and vite and blah blah blah! A whole lot of other stuff!</p>
+            <p1><b>- Who am I?</b></p1>
+            <p>Like I said before! I am <b>EIGHT YEARS OLD!</b> yeah yeah! I know you might be nuts! But it's true! I am intrested in currenty learning <b>Flutter</b>
+            </p>
+
+            <style>
+                * {
+                    background-color: blanchedalmond;
+                    font-family: "Fredoka" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+                }
+            
+                main {
+                    margin: auto;
+                    padding: 1.5rem;
+                    max-width: 60ch;
+                }
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 800;
+                    margin: 0;
+                }
+                .text-gradient {
+                    background-image: var(--accent-gradient);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-size: 400%;
+                    background-position: 0%;
+                }
+                .instructions {
+                    line-height: 1.6;
+                    margin: 1rem 0;
+                    border: 1px solid rgba(var(--accent), 25%);
+                    background-color: white;
+                    padding: 1rem;
+                    border-radius: 0.4rem;
+                }
+                .instructions code {
+                    font-size: 0.875em;
+                    font-weight: bold;
+                    background: rgba(var(--accent), 12%);
+                    color: rgb(var(--accent));
+                    border-radius: 4px;
+                    padding: 0.3em 0.45em;
+                }
+                .instructions strong {
+                    color: rgb(var(--accent));
+                }
+                .link-card-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+                    gap: 1rem;
+                    padding: 0;
+                }
+            </style> 
+        </div>
+    </main>
+</Layout>
