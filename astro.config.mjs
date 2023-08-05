@@ -14,6 +14,7 @@ import svelte from "@astrojs/svelte";
 // import bootstrap from "bootstrap";
 // import { ts, typescript } from "@astrojs/ts-plugin";
 
+// Helped By Rangana! :D rangana is his github username!
 
 // https://astro.build/config
 export default defineConfig({
