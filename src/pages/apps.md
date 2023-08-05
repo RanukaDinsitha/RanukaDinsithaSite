@@ -1,23 +1,19 @@
----
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Guides from './guides.astro';
-import About from './about.astro';
-import index from './index.astro'
-import github from "./assets/github.jpg"
----
-
 <h1>- My Apps</h1>
 <h2><b>Greetings, this is the page where you can download my apps!</b></h2>
+
 <h2><b>TexTey-GitHub</b></h2>
 <p>My text editor that I created that runs on electron, and it's my first text editor!</p>
 <p><b>Status: Public</b></p>
-<p><b>Download at github and run <code>npm run dev</code>. Also remeber to reinstall node_modules by typeing in <code>npm install</code>. Or <code>npm i</code> ! </b></p>
+
+<p><b>Run <code>git clone https://github.com/RanukaDinsitha/TexTey-GitHub.git TexTey</code>    and when you install it run <code>npm run dev</code>. Also remeber to reinstall node_modules by typing in <code>npm install</code>. Or <code>npm i</code> ! </b></p>
+
 <h2><b>Tic Tac Toe in React!</b></h2>
-<p>The first react game that I have created! Also i styled it like CRAZY!!!</p>
-<p><b>Status: In Progress</b></p>
-<p><b>In Progress I am too lazy.</b></p>
-<h1><button type="submit"></button></h1>
+<p>The first react game that I have created! I followed a youtube tutorial. To do it!!!</p>
+<p><b>Status: In Progress [ALMOST DONE!!!] </b></p>
+
+<h4><b><i>Created Using Astro</i></b></h4>
+
+<H1>Rest Is Private!</H1>
 
 <style>
     
@@ -29,6 +25,10 @@ import github from "./assets/github.jpg"
 
 	* {
 		background-color: blanchedalmond;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		justify-items: center;
+		font-weight: normal;
+		font-style: 500;
 	}
 
 	main {
