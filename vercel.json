@@ -5,4 +5,5 @@
     "redirects": [
         { "source": "/old-slug", "destination": "/new-slug", "permanent": true }
     ]
- }
+}
+
