@@ -22,6 +22,10 @@ pnpm-debug.log*
 
 # other
 .README.md
-.src/components/console-managers.ts
 .history/
-.pages/system/
+.src/components/.env
+.src/components/.env.local
+.src/components/env.rest
+.robots.txt
+.gitignore
+.repoData.yml
