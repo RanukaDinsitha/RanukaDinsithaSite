@@ -12,11 +12,13 @@ import node from "@astrojs/node";
 // import bootstrap from "bootstrap";
 // import { ts, typescript } from "@astrojs/ts-plugin";
 
+import vercel from "@astrojs/vercel/serverless";
+
+import svelte from "@astrojs/svelte";
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), partytown(), vue(), image()],
+  integrations: [react(), partytown(), vue(), image(), svelte()],
   output: "server",
-  adapter: node({
-    mode: "standalone",
-  }),
+  adapter: vercel()
 });
