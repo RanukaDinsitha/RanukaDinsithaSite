@@ -4,3 +4,6 @@
 
 <p>You, can view it for yourself! By going to <link>http://ranukadinsitha.github.io</link></p>
 
+# Also Ignore The Three eslintrc Errors! #
+
+
