@@ -26,6 +26,7 @@ pnpm-debug.log*
 .src/components/.env
 .src/components/.env.local
 .src/components/env.rest
+.src/components/local.cfg
 .robots.txt
 .gitignore
 .repoData.yml
