@@ -1,11 +1,11 @@
-import { defineConfig } from "astro/config";
-import react from "@astrojs/react";
-import vue from "@astrojs/vue";
-import partytown from "@astrojs/partytown";
-import image from "@astrojs/image";
-import node from "@astrojs/node";
-import vercel from "@astrojs/vercel/serverless";
-import svelte from "@astrojs/svelte";
+import { defineConfig } from 'astro/config'
+import react from '@astrojs/react'
+import vue from '@astrojs/vue'
+import partytown from '@astrojs/partytown'
+import image from '@astrojs/image'
+import node from '@astrojs/node'
+import vercel from '@astrojs/vercel/serverless'
+import svelte from '@astrojs/svelte'
 // import cloudflare from "@astrojs/cloudflare"
 // import node from "@astrojs/node";
 // import tailwind from "@astrojs/tailwind";
@@ -18,8 +18,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), partytown(), vue(), image(), svelte()],
-  output: "server",
-  adapter: vercel()
-});
-
+	integrations: [react(), partytown(), vue(), image(), svelte()],
+	output: 'server',
+	adapter: vercel()
+})
