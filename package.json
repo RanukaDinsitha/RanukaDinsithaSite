@@ -23,6 +23,7 @@
 		"@astrojs/vue": "^2.2.1",
 		"@ckeditor/ckeditor5-build-classic": "^38.1.1",
 		"@ckeditor/ckeditor5-react": "^6.1.0",
+		"@fontsource/noto-sans-sinhala": "^5.0.8",
 		"@types/node": "^20.4.6",
 		"@types/react": "^18.2.17",
 		"@types/react-dom": "^18.2.7",
