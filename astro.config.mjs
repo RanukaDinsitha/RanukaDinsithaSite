@@ -6,6 +6,8 @@ import image from '@astrojs/image'
 import node from '@astrojs/node'
 import vercel from '@astrojs/vercel/serverless'
 import svelte from '@astrojs/svelte'
+
+// import from MRT "@astrojs/MRT"
 // import cloudflare from "@astrojs/cloudflare"
 // import node from "@astrojs/node";
 // import tailwind from "@astrojs/tailwind";
@@ -14,7 +16,7 @@ import svelte from '@astrojs/svelte'
 // import bootstrap from "bootstrap";
 // import { ts, typescript } from "@astrojs/ts-plugin";
 
-// Helped By Rangana! :D rangana is his github username!
+// Helped By Rangana! :D rangana is his github username! Please help him!
 
 // https://astro.build/config
 export default defineConfig({

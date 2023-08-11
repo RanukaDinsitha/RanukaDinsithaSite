@@ -7,7 +7,8 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"runserver": "npm run dev"
 	},
 	"dependencies": {
 		"@astrojs/image": "^0.17.3",
@@ -25,7 +26,10 @@
 		"@types/react": "^18.2.17",
 		"@types/react-dom": "^18.2.7",
 		"astro": "^2.8.5",
+		"axios": "^1.4.0",
 		"bootstrap": "^5.3.1",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
 		"flamethrower-router": "^0.0.0-meme.12",
 		"html-react-parser": "^4.2.0",
 		"logrocket": "^5.0.1",
@@ -45,6 +49,7 @@
 		"eslint-plugin-astro": "^0.28.0",
 		"i": "^0.3.7",
 		"less": "^4.2.0",
+		"lint-staged": "^13.2.3",
 		"prettier": "3.0.1"
 	}
 }

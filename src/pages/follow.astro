@@ -1,23 +1,27 @@
-<h1>- My Apps</h1>
-<h2><b>Greetings, this is the page where you can download my apps!</b></h2>
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Index from "./index.astro";
+import About from "./about.astro";
+import github from "./assets/github.jpg"
+import guides from "./guides.astro"
+import apps from "./apps.astro"
+---
 
-<h2><b>TexTey-GitHub</b></h2>
-<p>My text editor that I created that runs on electron, and it's my first text editor!</p>
-<p><b>Status: Public</b></p>
+<dir class="App-Header">
+<h1> Follow Me</h1>
 
-<p><b>Run <code>git clone https://github.com/RanukaDinsitha/TexTey-GitHub.git TexTey</code>    and when you install it run <code>npm run dev</code>. Also remeber to reinstall node_modules by typing in <code>npm install</code>. Or <code>npm i</code> ! </b></p>
+<h4> My GitHub Link Is Below! </h4>
 
-<h2><b>Tic Tac Toe in React!</b></h2>
-<p>The first react game that I have created! I followed a youtube tutorial. To do it!!!</p>
-<p><b>Status: In Progress [ALMOST DONE!!!] </b></p>
+<h4>Also, please note <b>I only have github!</b></h4>
 
-<h4><b><i>Created Using Astro</i></b></h4>
+<p><a href="http://bit.ly/ranukalink"> Github Link! </a></p>
 
-<H1>Rest Is Private!</H1>
+</dir>
 
 <style>
-    
-	h1 {
+
+h1 {
 		background-color: blanchedalmond;
 		font-size: large;
         font-family: "Fredoka" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,4 +77,5 @@
 		gap: 1rem;
 		padding: 0;
 	}
+
 </style>

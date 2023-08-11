@@ -1,0 +1,7 @@
+<ProjectVersion>2.3.1</ProjectVersion>
+<WebFramework>Astro</WebFramework>
+<AstroVersion>2.8.5</AstroVersion>
+<TypeScriptEnabled>Yes</TypeScriptEnabled>
+<JavaScriptEnabled>Yes</JavaScriptEnabled>
+<WebEngine>Node.js Javascript Runtime Engine</WebEngine>
+<PrettierFormatterEnabled>Yes</PrettierFormatterEnabled>
