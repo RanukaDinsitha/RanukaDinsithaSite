@@ -26,13 +26,12 @@ pnpm-debug.log*
 # other
 
 .history/
-.src/components/.env
-.src/components/.env.local
-.src/components/env.rest
-.src/components/local.cfg
-.robots.txt*
-.gitignore*
-.repoData.yml*
+./src/components/.env
+./src/components/.env.local
+./src/components/env.rest
+./src/components/local.cfg
+./robots.txt
+./properties.xml
 .vercel/
-.src/components/robots.txt
+./src/components/robots.txt
 .vscode/
