@@ -12,12 +12,10 @@ const firebaseConfig = {
 	projectId: 'site-ranuka',
 	storageBucket: 'site-ranuka.appspot.com',
 	messagingSenderId: '282562350693',
-	appId: '1:282562350693:web:5ea7ea9fe3494d5bd8808c',
-	measurementId: 'G-BYE234KC3K'
+	appId: '1:282562350693:web:d0a299622e5dfe0fd8808c',
+	measurementId: 'G-BLGW5FT08J'
 }
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
 const analytics = getAnalytics(app)
-
-// Code From Firebase Console!
