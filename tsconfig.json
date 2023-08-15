@@ -1,13 +1,15 @@
 {
-	"extends": "astro/tsconfigs/strict",
-	"compilerOptions": {
-		"module": "ESNext",
-		"baseUrl": ".",
-		"jsx": "react-jsx",
-		"jsxImportSource": "react",
-		"exactOptionalPropertyTypes": false,
-		"paths": {
-			"$lib/*": ["src/*"]
-		}
-	}
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "exactOptionalPropertyTypes": false,
+    "paths": {
+      "$lib/*": [
+        "src/*"
+      ]
+    }
+  }
 }
