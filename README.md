@@ -1,7 +1,4 @@
-# My Astro Sites Code
+# ranukadinsitha.github.io Code! #
 
-<p><b>This Is My Astro Site's Code!</b></p>
+<p><b>This Is My Github sites source code! You could see it for yourself at <a href="https://ranukadinsitha.github.io"></a></b></p>
 
-<p>You, can view it for yourself! By going to <link>http://ranukadinsitha.github.io</link></p>
-
-# Also Ignore The Three eslintrc Errors!
