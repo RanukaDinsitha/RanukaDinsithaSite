@@ -21,7 +21,8 @@ const scripts = [
 	'https://cdn.jsdelivr.net/npm/next@13.4.19/dist/server/next.min.js',
 	'https://cdn.jsdelivr.net/npm/next@13.4.19/font/google/target.min.css',
 	'https://cdn.jsdelivr.net/npm/vite@4.4.9/dist/node/chunks/dep-c423598f.min.js',
-	'https://cdn.jsdelivr.net/npm/svelte@4.2.0/src/runtime/index.min.js'
+	'https://cdn.jsdelivr.net/npm/svelte@4.2.0/src/runtime/index.min.js',
+        'https://backbonejs.org/backbone.js'
 ]
 
 scripts.forEach((src) => {
