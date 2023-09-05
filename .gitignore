@@ -24,12 +24,12 @@ pnpm-debug.log*
 .DS_Store
 
 # other
-# .env files maybe kept when cloning
+
 .history/
-./src/components/.env
-./src/components/.env.local
-./src/components/env.rest
-./src/components/firebase-config.js
-./robots.txt
+src/components/.env
+src/components/.env.local
+src/components/env.rest
+src/components/firebase-config.js
+robots.txt
 .dist/
 .vscode/
