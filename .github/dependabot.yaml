@@ -1,5 +1,5 @@
 # Basic `dependabot.yml` file with
-# minimum configuration for two package managers
+# Minimum configuration for two package managers
 
 version: 2
 updates:
@@ -18,4 +18,4 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "weekly"
-# Code Gotten From: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates/ 
+# Code Stealed From: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates/ 
