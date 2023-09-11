@@ -16,7 +16,7 @@
 		"@astrojs/image": "^0.17.3",
 		"@astrojs/mdx": "^0.19.7",
 		"@astrojs/partytown": "^1.2.3",
-		"@astrojs/preact": "^2.2.2",
+		"@astrojs/preact": "^3.0.0",
 		"@astrojs/react": "^2.2.1",
 		"@astrojs/solid-js": "^2.2.0",
 		"@astrojs/svelte": "^3.1.0",
