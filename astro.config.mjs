@@ -5,11 +5,10 @@ import partytown from '@astrojs/partytown'
 import image from '@astrojs/image'
 import svelte from '@astrojs/svelte'
 import mdx from '@astrojs/mdx'
-import starlight from '@astrojs/starlight'
+// import starlight from '@astrojs/starlight'
 import robotsTxt from 'astro-robots-txt'
 import solidJs from '@astrojs/solid-js'
 import preact from '@astrojs/preact'
-
 // import node from '@astrojs/node'
 // import vercel from '@astrojs/vercel/serverless'
 // import from MRT "@astrojs/MRT"
@@ -29,21 +28,24 @@ export default defineConfig({
 		vue(),
 		image(),
 		svelte(),
-		starlight(),
+		// starlight(),
 		mdx({
 			syntaxHighlight: 'shiki',
 			shikiConfig: {
 				theme: 'dracula'
 			},
+
 			remarkPlugins: [remarkToc],
 			rehypePlugins: [rehypeMinifyHtml],
 			remarkRehype: {
 				footnoteLabel: 'Footnotes'
 			},
+
 			gfm: false,
 			extendMarkdownConfig: false,
 			optimize: true
 		}),
+
 		solidJs(),
 		robotsTxt({}),
 		preact()
