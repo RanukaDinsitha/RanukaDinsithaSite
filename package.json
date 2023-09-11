@@ -57,6 +57,7 @@
 		"vue": "^3.3.4"
 	},
 	"devDependencies": {
+		"bower": "^1.8.14",
 		"eslint": "^8.46.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-astro": "^0.28.0",

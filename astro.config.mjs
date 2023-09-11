@@ -51,3 +51,5 @@ export default defineConfig({
 		preact()
 	]
 })
+
+// Astro Config File.
