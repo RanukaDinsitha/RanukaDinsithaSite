@@ -1,6 +1,0 @@
-# Main Ignore
-node_modules/**
-vercel.json
-build
-coverage
-.history/
